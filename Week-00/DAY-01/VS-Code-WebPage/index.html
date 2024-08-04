@@ -5,11 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VS Code Web page</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div id="main">
+        <div id="nav">
+            <!-- Heading -->
+            <a href="">
+                <span id="heading">Visual Studio Code</span>
+            </a>
 
+            <!-- Anchor Elements -->
+            <a class="nav-anchor" href="">Docs</a>
+            <a class="nav-anchor" href="">Updates</a>
+            <a class="nav-anchor" href="">Blog</a>
+            <a class="nav-anchor" href="">API</a>
+            <a class="nav-anchor" href="">Extensions</a>
+            <a class="nav-anchor" href="">FAQ</a>
+            <a class="nav-anchor" href="">Learn</a>
+
+            <!-- Light mode button -->
+            <a href="">
+                <i id="nightMode" class="ri-sun-line"></i>
+            </a>
+
+            <!-- Input field  -->
+            <form id="searchForm">
+                <div>
+                    <input type="text" , placeholder="Search Docs">
+                    <span>
+                        <button type="submit">
+                            <i id="searchGlass" class="ri-search-2-line"></i>
+                        </button>
+                    </span>
+                </div>
+            </form>
+
+            <!-- Download button -->
+            <a id="downloadButton" href=""><span>Download</span></a>
+        </div>
+        <div id="banner">
+            <a href="">Version 1.92</a>
+            <h4>is now available! Read about the new features and fixes from July.</h4>
+            <!-- <a id="cross" href="">×</a> -->
+            <a id="cross" href="">x</a>
+        </div>
+        <div id="mid-container">
+            <div id="mid-part01">
+                <h4>Free. Built on open source. Runs everywhere.</h4>
+                <h1>Code<br>Editing.<br>Redefined.</h1>
+                <a id="downloadForMac" href=""><span>Download for macOS</span></a>
+                <p id="para01">
+                    <a id="mid-a" href="">Web</a>,
+                    <a id="mid-b" href="">Insiders edition</a>, or
+                    <a id="mid-c" href="">other platforms</a>
+                </p>
+                <p id="para02">
+                    <span>By using VS Code, you agree to its</span>
+                    <a id="mid-aa" href="">license</a><span> and</span>
+                    <a id="mid-bb" href="">privacy statement.</a>
+
+                </p>
+            </div>
+            <div id="mid-part02">
+                <img src="https://drive.google.com/file/d/18Y2rBjym3x-iWx1zc3op0qMxwaiFbF75/view?usp=drive_link"
+                    alt="vs code screen">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

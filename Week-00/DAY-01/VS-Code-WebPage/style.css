@@ -2,10 +2,169 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html,
 body {
     height: 100%;
     width: 100%;
+    background-color: black;
+}
+
+#main {
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+
+#nav {
+    width: 100%;
+    padding: 12px 90px;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#heading {
+    color: rgb(233, 234, 235);
+    font-size: 20px;
+    font-weight: 599;
+    text-decoration: none;
+}
+
+.nav-anchor {
+    color: rgb(122, 128, 139);
+    text-decoration: none;
+    font: 30px;
+    font-weight: 600;
+}
+
+#nightMode {
+    color: rgb(122, 128, 139);
+    font-size: 18px;
+}
+
+/* #searchGlass {} */
+
+#nav input {
+    color: rgb(14, 14, 14);
+    height: 27px;
+}
+
+#downloadButton {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 15px;
+    background-color: #0078d4;
+    border-radius: 4px;
+}
+
+#banner {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 20, 20);
+}
+
+#banner a {
+    color: rgb(51, 118, 205);
+}
+
+#banner h4 {
+    margin-left: 5px;
+    color: rgb(122, 128, 139);
+    font-weight: 100;
+}
+
+#cross {
+    position: relative;
+    align-items: center;
+    left: 330px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(122, 128, 139);
+    text-decoration: none;
+}
+
+#mid-container {
+    width: 100%;
+    padding: 60px 90px 60px 90px;
+    background-color: transparent;
+}
+
+/* #mid-part01 {} */
+
+#mid-part01 h4 {
+    /* New attribute */
+    width: max-content;
+    padding: 8px 12px;
+    border-radius: 21px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9ba3b4;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+#mid-part01 h1 {
+    color: #e9eaeb;
+    margin-top: 1rem;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 4rem;
+    letter-spacing: -0.4px;
+    margin-bottom: 39px;
+}
+
+#downloadForMac {
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: #0078d4;
+}
+
+#para01 {
+    width: max-content;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 30px 0 21px 0;
+    color: #9ba3b4;
+}
+
+#mid-a {
+    color: #0078d4;
+}
+
+#mid-b {
+    color: #0078d4;
+}
+
+#mid-c {
+    color: #0078d4;
+}
+
+#para02 {
+    width: max-content;
+    color: #9ba3b4;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#mid-aa {
+    color: #0078d4;
+}
+
+#mid-bb {
+    color: #0078d4;
+}
+
+#mid-part02 {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
