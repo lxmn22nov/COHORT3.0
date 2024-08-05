@@ -58,5 +58,9 @@ Yes and no. It is beginner friendly, but has a lot of performance overhead. Bun 
         - each "key" is a string & each "value" can be any valid JS data-type, including another object.
 
         1. Arrays
+            -filter method
+                - used to create a new array with elements that pass a test provided by a function.
+                - doesn't modify the original array elements but returns a new array.
+                - useful to filter even numbers, objects based on property.
         2. Array of Objects.
         3. Object of Objects.
