@@ -1,3 +1,8 @@
+# NODE.JS
+  - Used node.js to run javascript programs.
+  - To run node.js in terminal:
+      - ProjectFolder> node "FileName.js"> Enter
+    
 # ASSIGNMENT #00
   - Create a variable for each of the following: your favorite color, your height in cms, and whether you like pizza. Use appropriate variable declarations(let, const, or var). Try
     logging it using console.log.
@@ -21,3 +26,23 @@
   - Write a function called sum that finds the sum from 1 to a number.
 
     ![Assignment-04](https://github.com/user-attachments/assets/0502a9ae-ccb0-4ce4-9e4f-9e63c811153a)
+# ASSIGNMENT #05
+  - Write a function that takes a "user" as an input and greets them with their name and age.
+    
+  ![Assignment-05](https://github.com/user-attachments/assets/d71131a1-4e9f-4858-9283-1aa2474a7ab8)
+# ASSIGNMENT #06
+  - Write a function that takes a new object as input which has name , age  and gender and greets the user with their gender (Hi Mr/Mrs/Others harkirat, your age is 21).
+
+  ![Assignment-06](https://github.com/user-attachments/assets/ec98d266-63b5-4c29-b641-95db4cdfdc31)
+# ASSIGNMENT #07
+  - Write a function that takes an array of numbers as input, and returns a new array with only even values. Read about filter in JS.
+
+  ![Assignment-07](https://github.com/user-attachments/assets/a8935b14-a192-4080-9899-cc3b89d7a385)
+# ASSIGNMENT #08
+  - Write a function that takes an array of users as inputs and returns only the users who are more than 18 years old.
+  
+  ![Assignment-08](https://github.com/user-attachments/assets/7b15deff-83d5-4d58-8727-e784c2414aa4)
+# ASSIGNMENT #09
+  - Create a function that takes an array of objects as input, and returns the users whose age > 18 and are male.
+
+  ![Assignment-09](https://github.com/user-attachments/assets/b7d17837-5823-4d4d-aff5-6f908c86c0fc)
