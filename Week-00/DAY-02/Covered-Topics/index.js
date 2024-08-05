@@ -141,3 +141,142 @@ function summation(N) {
     console.log("The sum of", N, "numbers is:", result);
 }
 // summation(100);
+
+// OBJECTS:
+
+let user = {
+    name: "Virat",
+    age: 35
+}
+
+// console.log(user.name, "age is:", user.age);
+
+/*
+ASSIGNMENT #05: Write a function that takes a "user" as an input and greets them with their name 
+and age.
+*/
+
+function greeting(User) {
+    // Naive me!
+    // console.log("Good Morning", User.name, "\nDo you mind if I ask, how old are you?", User.age);
+
+    console.log(`Good Morning, ${User.name}.\nDo you mind if I ask, how old are you? ${User.age}`);
+}
+let User = {
+    name: "M.S.Dhoni",
+    age: 43
+}
+// greeting(User)
+
+/*
+ASSIGNMENT #06: Write a function that takes a new object as input which has name , age  and gender 
+and greets the user with their gender (Hi Mr/Mrs/Others harkirat, your age is 21).
+*/
+
+function greetGuest(guest) {
+    // naive me!
+    // console.log("Hi,", guest.title, ".", guest.name, ", your age is", guest.age);
+    if (age >= 18) {
+        console.log(`Hello, ${guest.title} ${guest.name}, your age is ${guest.age} and you are eligible to vote.`);
+    } else {
+        console.log(`Hello, ${guest.title} ${guest.name}, your age is ${guest.age}, sorry you are not eligible to vote.`);
+    }
+}
+
+let guest = {
+    name: "Harkirat",
+    age: 30,
+    title: "Mr."
+}
+// greetGuest(guest)
+
+// ARRAYS:
+
+const fruits = ["apple", "mango", "pine-apple"];
+const totalFruits = fruits.length;
+const firstFruit = fruits[0];
+
+// console.log(fruits);
+// console.log(totalFruits);
+// console.log(firstFruit);
+
+/*
+ASSIGNMENT #07: Write a function that takes an array of numbers as input, and returns a new array 
+with only even values. Read about filter in JS.
+*/
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+const evenNum = arr.filter(arr => arr % 2 === 0);
+
+// console.log(`Even elements: ${evenNum}`);
+
+// ARRAY OF OBJECTS:
+
+const Users = [
+    { name: "Harkirat", age: 30 },
+    { name: "Raman", age: 22 },
+    { name: "Dev", age: 55 },
+    { name: "Ashish", age: 15 },
+    { name: "Himanshu", age: 18 }
+]
+
+const User1 = Users[0].name;
+const User1Age = Users[0].age;
+
+// console.log(`First user name is ${User1} and his age is ${User1Age}.`);
+
+/*
+ASSIGNMENT #08: Write a function that takes an array of users as inputs and returns only the users
+who are more than 18 years old.
+*/
+
+function adultPeoples(peoples) {
+    return peoples.filter(people => people.age > 18);
+}
+
+const peoples = [
+    { name: "Harkirat", age: 30 },
+    { name: "Raman", age: 22 },
+    { name: "Dev", age: 55 },
+    { name: "Ashish", age: 15 },
+    { name: "Himanshu", age: 18 }
+];
+
+const elderPeople = adultPeoples(peoples);
+// console.log(`People who are above 18 years:`, elderPeople);
+
+// OBJECT OF OBJECTS: 
+
+const person1 = {
+    name: "Harkirat",
+    age: 30,
+    address: {
+        city: "Delhi",
+        country: "India",
+        address: "1122 DLF"
+    }
+}
+
+const city = person1.address.city;
+// console.log(city);
+
+/*
+ASSIGNMENT #09: Create a function that takes an array of objects as input, and returns the users 
+whose age > 18 and are male.
+*/
+
+function adultMales(users) {
+    return users.filter(user => user.age > 18 && user.gender === 'male');
+}
+
+const users = [
+    { name: 'Anushka', age: 17, gender: 'female' },
+    { name: 'Balwant', age: 22, gender: 'male' },
+    { name: 'Charu', age: 18, gender: 'male' },
+    { name: 'Deepak', age: 19, gender: 'male' },
+    { name: 'Sanjana', age: 25, gender: 'female' }
+];
+
+const elderMales = adultMales(users);
+console.log(elderMales);
