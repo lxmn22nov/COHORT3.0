@@ -68,3 +68,35 @@ function printUser({ name, age }) {
 
 printUser({ name: "Himanshu", age: 23 });
 
+// ARROW FUNCTIONS
+
+// Syntax:
+let arrowFunc = (a, b) => a + b;
+
+// Before Arrow: 
+let hello = function () {
+    return "Hello JS."
+}
+// console.log(hello());
+
+// After Arrow: 
+let hello1 = () => {
+    return "Hello Harkirat!";
+}
+// console.log(hello1());
+
+// If the function has only one statement and statement returns a value, we can remove the brackets and "return" keyword.
+
+let hello2 = () => "Hello, People.";
+// console.log(hello2());
+
+// Arrow function with parameters:
+
+let hello3 = (name) => "Hello, " + name + "!";
+console.log(hello3("Laxman Singh Koranga"));
+
+// If the function has only one parameter, we can remove parenthesis.
+
+let hello4 = greet => greet + "India!";
+console.log(hello4("Welcome to "));
+

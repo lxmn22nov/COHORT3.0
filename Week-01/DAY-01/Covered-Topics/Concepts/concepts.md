@@ -20,3 +20,8 @@
 ### 9. Destructuring Function Arguments
 - destructure objects or arrays passed as arguments directly in the function signature.
 
+## Arrow Function
+- introduced in ES6.
+- allow us to write shorter function syntax.
+- "this" is also different in arrow functions compared to regular functions.
+- with arrow functions there are no binding of "this" but it always repesent the object that defined the arrow function.
