@@ -7,3 +7,7 @@
 
 # Create a new file for our app.
     - create schema.
+
+# Create JsonWebToken(JWT).
+    - using jsonwebtoken
+    npm install jsonwebtoken
