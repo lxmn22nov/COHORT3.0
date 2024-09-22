@@ -1,6 +1,7 @@
 # Authentication, JSON Web Token(JWTs)
 
-    # Bank Example:
+    Bank Example:
+    
     1. Let say, PersonA is SBI Manager and PersonB is Laxman.
     2. Laxman opens a bank account in SBI, after talking with the manager.
     3. Bank account opened.
